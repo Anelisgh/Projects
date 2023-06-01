@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fce4ec;
+    /* Faded pink background color */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #765761;
+    /* Pink text color */
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 0.3rem #D1B1BC;
+    cursor: pointer;
+  }
+  input:focus[type="text"]{
+    outline-color: #f49fbc;
+  }
+  
+  button {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D1B1BC;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #D1B6B1;
+    -webkit-box-shadow: 6px 6px 4px -1px rgba(184, 160, 156, 0.61);
+    -moz-box-shadow: 6px 6px 4px -1px rgba(184, 160, 156, 0.61);
+    box-shadow: 6px 6px 4px -1px rgba(184, 160, 156, 0.61);
+    transition: .3s;
+    /* Change the color when the button is hovered */
+  }
+  
+  button:active {
+    background-color: #B79F9B;
+    /* Change the color when the button is pressed */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #fff3f8;
+    /* Light pink background color */
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 8px;
+  }
+  
+  .taskText {
+    flex-grow: 1;
+  }
+  
+  .completed .taskText {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .deleteButton {
+    margin-left: auto;
+  }
